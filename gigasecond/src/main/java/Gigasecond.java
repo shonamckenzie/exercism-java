@@ -5,6 +5,7 @@ public class Gigasecond {
     private LocalDateTime date;
 
     public Gigasecond(LocalDate moment) {
+//        Combine the date with the time of midnight to create a LocalDateTime at the start of this date.
         this.date = moment.atStartOfDay();
     }
 
